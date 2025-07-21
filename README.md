@@ -10,5 +10,6 @@ I am new to learning this topic from a developer’s perspective. While I’ve u
 ## Required Dependencies :
 - express
 - jsonwebtoken
+- bcrypt
 - dotenv
 - nodemon (Developer tools)
