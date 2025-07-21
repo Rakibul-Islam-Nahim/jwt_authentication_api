@@ -1,0 +1,25 @@
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "name" : "Nahim",
+    "password" : "pass123"
+}
+
+###
+
+GET http://localhost:3000/user
+
+
+###
+POST http://localhost:3000/login 
+Content-Type: application/json
+
+{
+    "name" : "Nahim",
+    "password" : "pass123"
+}
+
+### 
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1pbmciOiJOYWhpbSIsImlhdCI6MTc1MzExMjc5NH0.m9AFCT8P64K8U10aSjlAbBnlo78St0wkPUfJWAkYxNA
